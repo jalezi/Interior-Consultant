@@ -40,6 +40,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 }
 
 .title {
@@ -98,6 +99,7 @@ img {
 .nav-links.open {
   display: flex;
   background-color: var(--bcg-color);
+  z-index: 1;
 }
 
 .nav-links li {
